@@ -26,4 +26,11 @@ int main() {
         printf("(Linha %d, Coluna %c)\n", i + 1, 'A' + 6);
     }
 
+    // Imprimir cabeçalho 0 = água , 3 = navio 
+    printf("\nTabuleiro Batalha Naval (0 = água, 3 = navio):\n\n");
+    printf("   ");
+    for (int j = 0; j < TAM; j++) {
+        printf(" %c ", 'A' + j);
+    }
+
    
