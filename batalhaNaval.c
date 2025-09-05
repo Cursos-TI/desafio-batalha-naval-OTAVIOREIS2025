@@ -14,4 +14,9 @@ int main() {
         tabuleiro[4][j] = 3;
     }
 
+    // Navio vertical (coluna G, linhas 3-5)
+    for (int i = 2; i < 5; i++) {
+        tabuleiro[i][6] = 3;
+    }
+
     
