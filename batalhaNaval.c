@@ -39,5 +39,17 @@ int main() {
     }
     printf("\n");
 
+    // Imprimir tabuleiro
+    for (int i = 0; i < TAM; i++) {
+        printf("%2d ", i + 1);
+        for (int j = 0; j < TAM; j++) {
+            printf(" %d ", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
 
     
