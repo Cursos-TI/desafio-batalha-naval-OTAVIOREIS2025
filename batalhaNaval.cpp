@@ -20,4 +20,10 @@ int main() {
         printf("(Linha %d, Coluna %c)\n", 5, 'A' + j);
     }
 
+    // Coordenadas navio vertical
+    printf("\nCoordenadas do navio vertical (3 posições):\n");
+    for (int i = 2; i < 5; i++) {
+        printf("(Linha %d, Coluna %c)\n", i + 1, 'A' + 6);
+    }
+
    
