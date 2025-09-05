@@ -18,5 +18,12 @@ int main() {
     for (int i = 2; i < 5; i++) {
         tabuleiro[i][6] = 3;
     }
+    
+    // Coordenadas navio horizontal
+    printf("Coordenadas do navio horizontal (3 posições):\n");
+    for (int j = 2; j < 5; j++) {
+        printf("(Linha %d, Coluna %c)\n", 5, 'A' + j);
+    }
+
 
     
